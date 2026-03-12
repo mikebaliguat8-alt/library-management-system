@@ -1,0 +1,62 @@
+.login-page{
+
+background-image:url("https://scontent.fceb1-5.fna.fbcdn.net/v/t39.30808-6/287517027_1499170013873358_8371912495800564001_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=1d70fc&_nc_eui2=AeE-s669jKoFQfPXtAA1NooOuZJVdhPGwfe5klV2E8bB9wTAR-Qp3towExkqDeQPlN-NAp306eJG8hxVDD-OCwzw&_nc_ohc=nT9hWm52j1MQ7kNvwHLwACe&_nc_oc=Adlb6FFET8d51da-817-IrxGRGO25xZqTkv5000lWYNCr4CjUgIom2OknxXh-hs4twk&_nc_zt=23&_nc_ht=scontent.fceb1-5.fna&_nc_gid=QylypJrI9zaBVdza7f9UwQ&_nc_ss=8&oh=00_AfwLR7q8DL7F8vvhykxaIB0Vdf3HcgIcyVZQMaHvWD5o1w&oe=69B878DD");
+
+background-size:cover;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+
+}
+
+.login-container{
+
+background:white;
+padding:40px;
+width:320px;
+border-radius:10px;
+text-align:center;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.3);
+
+}
+
+.login-container input{
+
+width:100%;
+padding:10px;
+margin:10px 0;
+
+border:1px solid #ccc;
+border-radius:5px;
+
+}
+
+.login-container button{
+
+width:100%;
+padding:12px;
+background:#2d89ef;
+
+border:none;
+color:white;
+font-size:16px;
+
+border-radius:5px;
+cursor:pointer;
+
+}
+
+.login-container button:hover{
+
+background:#1b5fad;
+
+}
+
+#error-message{
+
+color:red;
+margin-top:10px;
+
+}
